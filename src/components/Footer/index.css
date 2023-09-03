@@ -1,0 +1,27 @@
+.ul-type {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foo {
+  text-align: center;
+  width: Fixed (688px);
+  height: Hug (172px);
+  top: 5159px;
+  left: 378px;
+  gap: 32px;
+}
+
+.foo-container {
+  padding-top: 50px;
+}

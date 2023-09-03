@@ -1,0 +1,75 @@
+.textimonal-container {
+  width: 1088px;
+  height: 408px;
+  top: 4521px;
+  left: 176px;
+}
+
+.in-container {
+  width: 220px;
+  gap: 16px;
+  padding-top: 20px;
+}
+
+.box {
+  width: Hug (296px);
+  height: Hug (290px);
+  gap: 16px;
+  background: #ffffff;
+}
+
+.core-para {
+  width: 127px;
+  height: 22px;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.core-para2 {
+  width: Fill (296px);
+  height: Hug (88px);
+  gap: 10px;
+}
+
+.para-box {
+  width: Fixed (296px);
+  height: Hug (120px);
+  padding: 16px 0px 16px 0px;
+  gap: 16px;
+}
+
+.card-des {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #2d2e2e;
+}
+
+@media (min-width: 768px) {
+  .test-mon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+  .last {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .last {
+    height: 180vh;
+  }
+  .test-mon {
+    text-align: center;
+  }
+}

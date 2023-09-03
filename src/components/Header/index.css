@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: white;
+  box-shadow: 0px 3.1255478858947754px 5.925629615783691px 0px #00000009,
+    0px 47px 152px 0px #00000017;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.courses-button {
+  background: #f27a44;
+  border-radius: 18px;
+  color: white;
+  padding: 8px 16px;
+  border-width: 0px;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    margin-right: 200px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    display: none;
+  }
+
+  .num {
+    width: 67px;
+    height: 30px;
+  }
+  .nav-list.open {
+    display: flex;
+  }
+}
+
+.courses-button-mobile {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #f27a44;
+  border-radius: 18px;
+  color: white;
+  padding: 8px 16px;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .offer {
+    margin-left: 220px;
+  }
+}

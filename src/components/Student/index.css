@@ -1,0 +1,108 @@
+.st-container {
+  width: 547px;
+  height: 397px;
+  top: 2978px;
+  left: 177px;
+  gap: 60px;
+  padding-top: 20px;
+}
+
+.st-para {
+  width: 225px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2027;
+}
+
+.st-head {
+  width: 547px;
+  height: 82px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.st-ul {
+  width: 248px;
+  height: 150px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1f2027;
+}
+
+@media (min-width: 768px) {
+  .st-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+/* Your existing CSS styles for other elements remain unchanged */
+
+/* Your existing CSS styles for other elements remain unchanged */
+
+.image-part {
+  width: 310.6282702260069px;
+  height: 300px; /* Adjust the height to match the girl image height */
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.background-image {
+  width: 310.6282702260069px;
+  height: 86.63243238155714px;
+  top: 3003.174560546875px;
+  left: 926.0000610351562px;
+  border-radius: 50px;
+  background-color: #be554b;
+  transform: rotate(21.96deg);
+
+  /* Apply rotation to the background only */
+}
+
+.background-image2 {
+  width: 310.6282702260069px;
+  height: 86.63243238155714px;
+  top: 3183.174072265625px;
+  left: 850.0000610351562px;
+  border-radius: 50px;
+  transform: rotate(21.96deg);
+  background: #505c59;
+}
+
+.girl {
+  width: auto; /* Let the image determine its own width */
+  height: 100%; /* Match the height to the container's height */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the girl image both horizontally and vertically */
+  /* No rotation applied here, so the girl image remains in its original orientation */
+}
+
+.ellipse {
+  width: 75.9999847412121px;
+  height: 76.00001525879023px;
+  top: 2914px;
+  left: 259px;
+  transform: rotate(180deg);
+  background: #be554b;
+}

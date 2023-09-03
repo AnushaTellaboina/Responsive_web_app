@@ -1,0 +1,136 @@
+/* Explore.css */
+
+/* Basic styles for card containers */
+.card-container {
+  width: 360px;
+  background-color: white;
+  height: 130px;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+/* Styles for card header */
+.card-header {
+  width: 310px;
+  height: 80px;
+  box-shadow: 0px 3.1255478858947754px 5.925629615783691px 0px #00000009,
+    0px 47px 152px 0px #00000017;
+  margin-top: 20px;
+}
+
+/* Styles for media and avatar */
+.media {
+  width: 310px;
+  height: 80px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+}
+
+/* Styles for content and content-para */
+.content {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #000000;
+}
+
+.content-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+/* Styles for text-part */
+.text-part {
+  width: 220px;
+  height: 70px;
+  gap: 3px;
+}
+
+.above {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media query for larger devices */
+@media (min-width: 768px) {
+  .above {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+
+    justify-content: space-around;
+  }
+
+  /* Updated styles for .above-container */
+  .above-container {
+    width: 360px;
+    height: 490px;
+    background-color: white; /* Background color should now work on larger devices */
+    border-radius: 20px;
+  }
+
+  .ec {
+    width: 93px;
+    height: 93px;
+    top: 1270px;
+    left: 849px;
+    angle: -180 deg;
+  }
+}
+
+/* Styles for description */
+.description {
+  width: 447px;
+  height: 397px;
+  gap: 60px;
+}
+
+/* Styles for head */
+.head {
+  width: 368px;
+  height: 82px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #000000;
+}
+
+/* Styles for para */
+.para {
+  width: 447px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #000000;
+}
+
+/* Styles for ul */
+.ul {
+  width: 248px;
+  height: 150px;
+
+  color: #000000;
+}

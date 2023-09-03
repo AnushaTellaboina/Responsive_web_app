@@ -1,0 +1,147 @@
+@media (min-width: 768px) {
+  .book-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+/* Styles for the book girl image */
+.book-girl {
+  width: 200px;
+  height: 200px;
+}
+
+/* Styles for the form container */
+/* Styles for the form container */
+.form-item {
+  width: 200px;
+  height: 600px;
+  border-radius: 23.35px;
+  box-shadow: 0px 4.42px 6.21px 0px rgba(0, 0, 0, 0.07),
+    0px 14.86px 20.86px 0px rgba(0, 0, 0, 0.11),
+    0px 66.54px 93.39px 0px rgba(0, 0, 0, 0.18);
+
+  background-color: red;
+}
+
+.eclipse1 {
+  width: 310.9999987861396px;
+  height: 80.99999968384985px;
+  top: 4022px;
+  left: 359.35400390625px;
+  transform: rotate(-1.67deg);
+
+  background: #f27a44;
+}
+
+/* Styles for the title */
+.title {
+  width: 145px;
+  height: 38px;
+  font-family: Roboto;
+  font-size: 33px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #000000;
+  color: white; /* Text color */
+}
+
+/* Styles for the book paragraph */
+.book-para {
+  width: 100%;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5836576223373413px;
+  text-align: left;
+  background: #282828;
+  color: white; /* Text color */
+}
+
+/* Styles for the city label */
+.city {
+  width: 30px;
+  height: 27px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.5836576223373413px;
+  text-align: left;
+  background: #000000;
+  color: white; /* Text color */
+}
+
+/* Styles for the input fields */
+.input {
+  width: 100%;
+  padding: 0px 0px 0px 17.509729385375977px;
+  border-radius: 11.673152923583984px;
+  background: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(0deg, #f3f3f3, #f3f3f3);
+  border: 1px solid #000000;
+  color: white; /* Text color */
+}
+
+/* Styles for the input placeholders */
+.place {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.5836576223373413px;
+  text-align: left;
+  color: white;
+}
+
+/* Styles for input2 and input3 fields */
+.input2.place,
+.input3.place {
+  width: 45%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Styles for input3 field with a background color */
+.input3 {
+  width: 175.1px;
+  height: 52.53px;
+  border-radius: 11.673152923583984px;
+  justify-content: space-between;
+  /* Add background-color property here */
+  background-color: red; /* Change 'red' to your desired background color */
+}
+
+/* Background color class */
+.color {
+  background-color: #000000;
+}
+
+/* Styles for the "BOOK NOW" button */
+.book-button {
+  background-color: #2e6e56; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Add a hover effect for the button */
+.book-button:hover {
+  background-color: #1f4a3f; /* Hover background color */
+}
+
+input {
+  color: white;
+}
